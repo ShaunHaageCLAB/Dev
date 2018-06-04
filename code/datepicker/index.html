@@ -6,14 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Pikaday</title>
     <link rel="stylesheet" href="pikaday.css">
-</head>
-<body>
-
-https://github.com/dbushell/Pikaday<br />
-    <label for="datepicker">Date:</label>
-    <br>
-    <input type="text" id="datepicker">
-
     <script src="pikaday.min.js"></script>
     <script>
     var picker = new Pikaday({
@@ -26,5 +18,17 @@ https://github.com/dbushell/Pikaday<br />
     });
 
     </script>
+</head>
+<body>
+
+https://github.com/dbushell/Pikaday<br />
+    <label for="datepicker">Date:</label>
+    <br>
+    <input type="text" id="txt_Date">
+
+    <input name="ctl00$PlaceHolderMain$txt_Date" type="text" onchange="javascript:return false;" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="txt_Date" class="form-control" />
+
+
+
 </body>
 </html>
